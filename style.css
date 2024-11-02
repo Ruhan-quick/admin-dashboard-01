@@ -644,8 +644,9 @@ main .recent-orders a{
     .right .top{
         position: fixed;
         top: 0;
-        left: 0;
+        right: 0;
         align-items: center;
+        justify-content: end;
         padding: 0 0.8rem;
         height: 4.6rem;
         background: var(--color-white);
@@ -672,7 +673,7 @@ main .recent-orders a{
         position: absolute;
         left: 1rem;
     }
-    .right .topbutton span {
+    .right .top button span {
         font-size: 2rem;
     }
 
